@@ -1,0 +1,14 @@
+chèn img vào reactjs
+https://www.youtube.com/watch?v=U07wzhfu66M
+
+font chữ
+https://fonts.google.com/
+
+icon
+https://fontawesome.com/icons/magnifying-glass?s=solid
+
+tạo 1 project reactjs
+---------------------
+npx create-react-app my-app
+cd my-app
+npm start
