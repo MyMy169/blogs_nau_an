@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import DatePicker from "react-datepicker";
+import 'react-datepicker/dist/react-datepicker.css'
 
 /*1
 ReactDOM.render(
@@ -131,6 +133,7 @@ function MyForm() {
 
 ReactDOM.render(<MyForm />, document.getElementById('root'));*/
 
+/*8
 const Header = () => {
   return (
     <>
@@ -139,7 +142,72 @@ const Header = () => {
   );
 }
 
-ReactDOM.render(<Header />, document.getElementById('root'));
+ReactDOM.render(<Header />, document.getElementById('root'));*/
+
+/*10
+function MyPicker(){
+  const [selectedDate, setSelectedDate] = useState(null);
+  return (
+    <div>
+      <DatePicker
+        selected = {selectedDate}
+        onChange = {date => setSelectedDate(date)}
+        dateFormat= 'dd/MM/yyyy'
+        isClearable
+        showYearDropdown
+        scrollableMonthYearDropdown
+      />
+
+    </div>
+    );
+}
+ReactDOM.render(<MyPicker />, document.getElementById('root'));*/
+
+/*function MyForm() {
+  const [name, setName] = useState("");
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    alert(`The name you entered was: ${name}`);
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <label>Enter your name:
+        <input 
+          type="text" 
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+      </label>
+      <input type="submit" />
+    </form>
+  )
+}
+
+ReactDOM.render(<MyForm />, document.getElementById('root'));*/
+
+
+function Lose() {
+  return <h1>YOU LOSE!</h1>;
+}
+
+function Win() {
+  return <h1>YOU WIN!</h1>;
+}
+function Play(props) {
+  const isWin = props.isWin;
+  if (isWin) {
+    return <Win/>;
+  }
+  return <Lose/>;
+}
+
+ReactDOM.render(
+  <Play isWin={false} />,
+  document.getElementById('root')
+);
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
