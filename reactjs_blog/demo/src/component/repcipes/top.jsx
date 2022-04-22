@@ -5,9 +5,9 @@ export default function TopFood() {
                 <h5>Top Recipes this Week</h5>
             </div>
             <div class="container po-relative">
-                <div class="plus-icon">
+                {/* <div class="plus-icon">
                     <i class="fa fa-plus"></i>
-                </div>
+                </div> */}
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="top-recipe-item large-item">

@@ -10,9 +10,9 @@ export default function Footer() {
                                     <img src="img/footer-logo.png" alt=""/>
                                 </a>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                                viverra maecenas accumsan lacus vel facilisis.</p>
+                            <p>Nếu bạn là những người có niềm đam mê nấu ăn, hay muốn thưởng thức những món ăn ngon. Hãy đến 
+                                với blog của chúng tôi, nó sẽ không làm bạn thất vọng.
+                            </p>
                         </div>
                     </div>
                     <div class="col-lg-6 offset-lg-1">
