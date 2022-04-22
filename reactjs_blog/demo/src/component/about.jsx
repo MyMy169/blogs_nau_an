@@ -26,12 +26,12 @@ function About () {
                         <div class="about-right">
                             <div class="sidebar">
                                 <div class="sidebar-item">
-                                    { <img src="img/cat-feature/small-1.jpg" alt=""/> }
-                                    <h6>Asparagus with Pork Loin and Vegetables</h6>
+                                    { <img src="img/aboutus/my.jpg" alt=""/> }
+                                    <h6>Đặng Thị Tiểu My</h6>
                                 </div>
                                 <div class="sidebar-item">
-                                    { <img src="img/cat-feature/small-1.jpg" alt=""/> }
-                                    <h6>Asparagus with Pork Loin and Vegetables</h6>
+                                    { <img src="img/aboutus/huong.jpg" alt=""/> }
+                                    <h6>Vũ Thị Hải Hương</h6>
                                 </div>
                                 <div class="sidebar-item">
                                     { <img src="img/cat-feature/small-1.jpg" alt=""/> }
