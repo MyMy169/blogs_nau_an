@@ -29,7 +29,7 @@ class App extends Component{
                  <Route exact path='/nuoc' element={<ListRepcipes/>}></Route>
                  <Route exact path='/about' element={<About/>}></Route>
                  <Route exact path='/contact' element={<Contact/>}></Route>
-                 <Route exact path='/trang_mieng/cach_nau' element={<Blog/>}></Route>
+                 <Route exact path='/cach_nau/blogs' element={<Blog/>}></Route>
           </Routes>
           <Footer/>
           </div>

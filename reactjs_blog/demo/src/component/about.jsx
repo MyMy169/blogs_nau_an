@@ -34,16 +34,16 @@ function About () {
                                     <h6>Vũ Thị Hải Hương</h6>
                                 </div>
                                 <div class="sidebar-item">
-                                    { <img src="img/cat-feature/small-1.jpg" alt=""/> }
-                                    <h6>Asparagus with Pork Loin and Vegetables</h6>
+                                    { <img src="img/aboutus/chuyen.jpg" alt=""/> }
+                                    <h6>Bùi Thị Cẩm Huyền</h6>
                                 </div>
                                 <div class="sidebar-item">
-                                    { <img src="img/cat-feature/small-1.jpg" alt=""/> }
-                                    <h6>Asparagus with Pork Loin and Vegetables</h6>
+                                    { <img src="img/aboutus/hong.jpg" alt=""/> }
+                                    <h6>Võ Thị Tuyết Hồng</h6>
                                 </div>
                                 <div class="sidebar-item">
-                                    { <img src="img/cat-feature/small-1.jpg" alt=""/> }
-                                    <h6>Asparagus with Pork Loin and Vegetables</h6>
+                                    { <img src="img/aboutus/nhuyen.jpg" alt=""/> }
+                                    <h6>Trần Lê Ngọc Huyền</h6>
                                 </div>
                             </div>
                         </div>
