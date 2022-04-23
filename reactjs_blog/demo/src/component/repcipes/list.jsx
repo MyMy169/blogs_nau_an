@@ -1,4 +1,9 @@
-import { Link } from "react-router-dom";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link
+  } from 'react-router-dom';
 
 export default function ListRepcipes() {
     return (
@@ -8,10 +13,12 @@ export default function ListRepcipes() {
 
                     <div class="col-lg-4 col-sm-6">
                         <div class="recipe-item">
-                            <img src="img/bunbohue.jpg" alt=""/>
+                            <Link to="/cach_nau/blogs">
+                                <img src="img/bunbohue.jpg" alt=""/>
+                            </Link>
                             <div class="ri-text">
                                 <div class="cat-name">Desert</div>
-                                <Link to="/trang_mieng/cach_nau">
+                                <Link to="/cach_nau/blogs">
                                     <h4>Bún Bò Huế</h4>
                                 </Link>
                                 <p>Để có một tô bún bò Huế ngon đúng chuẩn Huế thì phải trải qua rất nhiều công đoạn, 
@@ -21,10 +28,12 @@ export default function ListRepcipes() {
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <div class="recipe-item">
-                            <img src="img/bunbohue.jpg" alt=""/>
+                            <Link to="/cach_nau/blogs">
+                                <img src="img/bunbohue.jpg" alt=""/>
+                            </Link>
                             <div class="ri-text">
                                 <div class="cat-name">Desert</div>
-                                <Link to="/trang_mieng/cach_nau">
+                                <Link to="/cach_nau/blogs">
                                     <h4>Bún Bò Huế</h4>
                                 </Link>
                                 <p>Để có một tô bún bò Huế ngon đúng chuẩn Huế thì phải trải qua rất nhiều công đoạn, 
@@ -34,10 +43,12 @@ export default function ListRepcipes() {
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <div class="recipe-item">
-                            <img src="img/bunbohue.jpg" alt=""/>
+                            <Link to="/cach_nau/blogs">
+                                <img src="img/bunbohue.jpg" alt=""/>
+                            </Link>
                             <div class="ri-text">
                                 <div class="cat-name">Desert</div>
-                                <Link to="/trang_mieng/cach_nau">
+                                <Link to="/cach_nau/blogs">
                                     <h4>Bún Bò Huế</h4>
                                 </Link>
                                 <p>Để có một tô bún bò Huế ngon đúng chuẩn Huế thì phải trải qua rất nhiều công đoạn, 
@@ -47,10 +58,12 @@ export default function ListRepcipes() {
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <div class="recipe-item">
-                            <img src="img/bunbohue.jpg" alt=""/>
+                            <Link to="/cach_nau/blogs">
+                                <img src="img/bunbohue.jpg" alt=""/>
+                            </Link>
                             <div class="ri-text">
                                 <div class="cat-name">Desert</div>
-                                <Link to="/trang_mieng/cach_nau">
+                                <Link to="/cach_nau/blogs">
                                     <h4>Bún Bò Huế</h4>
                                 </Link>
                                 <p>Để có một tô bún bò Huế ngon đúng chuẩn Huế thì phải trải qua rất nhiều công đoạn, 
@@ -60,10 +73,12 @@ export default function ListRepcipes() {
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <div class="recipe-item">
-                            <img src="img/bunbohue.jpg" alt=""/>
+                            <Link to="/cach_nau/blogs">
+                                <img src="img/bunbohue.jpg" alt=""/>
+                            </Link>
                             <div class="ri-text">
                                 <div class="cat-name">Desert</div>
-                                <Link to="/trang_mieng/cach_nau">
+                                <Link to="/cach_nau/blogs">
                                     <h4>Bún Bò Huế</h4>
                                 </Link>
                                 <p>Để có một tô bún bò Huế ngon đúng chuẩn Huế thì phải trải qua rất nhiều công đoạn, 
@@ -73,10 +88,12 @@ export default function ListRepcipes() {
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <div class="recipe-item">
-                            <img src="img/bunbohue.jpg" alt=""/>
+                            <Link to="/cach_nau/blogs">
+                                <img src="img/bunbohue.jpg" alt=""/>
+                            </Link>
                             <div class="ri-text">
                                 <div class="cat-name">Desert</div>
-                                <Link to="/trang_mieng/cach_nau">
+                                <Link to="/cach_nau/blogs">
                                     <h4>Bún Bò Huế</h4>
                                 </Link>
                                 <p>Để có một tô bún bò Huế ngon đúng chuẩn Huế thì phải trải qua rất nhiều công đoạn, 
@@ -86,10 +103,12 @@ export default function ListRepcipes() {
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <div class="recipe-item">
-                            <img src="img/bunbohue.jpg" alt=""/>
+                            <Link to="/cach_nau/blogs">
+                                <img src="img/bunbohue.jpg" alt=""/>
+                            </Link>
                             <div class="ri-text">
                                 <div class="cat-name">Desert</div>
-                                <Link to="/trang_mieng/cach_nau">
+                                <Link to="/cach_nau/blogs">
                                     <h4>Bún Bò Huế</h4>
                                 </Link>
                                 <p>Để có một tô bún bò Huế ngon đúng chuẩn Huế thì phải trải qua rất nhiều công đoạn, 
@@ -99,10 +118,12 @@ export default function ListRepcipes() {
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <div class="recipe-item">
-                            <img src="img/bunbohue.jpg" alt=""/>
+                            <Link to="/cach_nau/blogs">
+                                <img src="img/bunbohue.jpg" alt=""/>
+                            </Link>
                             <div class="ri-text">
                                 <div class="cat-name">Desert</div>
-                                <Link to="/trang_mieng/cach_nau">
+                                <Link to="/cach_nau/blogs">
                                     <h4>Bún Bò Huế</h4>
                                 </Link>
                                 <p>Để có một tô bún bò Huế ngon đúng chuẩn Huế thì phải trải qua rất nhiều công đoạn, 
@@ -112,10 +133,12 @@ export default function ListRepcipes() {
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <div class="recipe-item">
-                            <img src="img/bunbohue.jpg" alt=""/>
+                            <Link to="/cach_nau/blogs">
+                                <img src="img/bunbohue.jpg" alt=""/>
+                            </Link>
                             <div class="ri-text">
                                 <div class="cat-name">Desert</div>
-                                <Link to="/trang_mieng/cach_nau">
+                                <Link to="/cach_nau/blogs">
                                     <h4>Bún Bò Huế</h4>
                                 </Link>
                                 <p>Để có một tô bún bò Huế ngon đúng chuẩn Huế thì phải trải qua rất nhiều công đoạn, 
