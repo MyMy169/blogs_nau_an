@@ -12,7 +12,7 @@ function EditBlog() {
                                     <div className="col-md-5 pr-1">
                                         <div className="form-group">
                                             <label>Mã bài viết </label>
-                                            <input type="text" className="form-control" name="MaBV" placeholder="Mã bài viết" readonly/>
+                                            <input type="text" className="form-control" name="MaBV" placeholder="Mã bài viết" readOnly/>
                                         </div>
                                     </div>
                                     <div className="col-md-5 pr-1">
