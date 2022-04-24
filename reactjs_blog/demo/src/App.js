@@ -14,6 +14,7 @@ import Footer from './component/footer/Footer';
 import Header from './component/header';
 import ListRepcipes from './component/repcipes/list';
 import Blog from './component/repcipes/blog';
+import Login from './component/login/login';
 
 class App extends Component{
   render() {
@@ -30,6 +31,7 @@ class App extends Component{
                  <Route exact path='/about' element={<About/>}></Route>
                  <Route exact path='/contact' element={<Contact/>}></Route>
                  <Route exact path='/cach_nau/blogs' element={<Blog/>}></Route>
+                 <Route exact path='/login' element={<Login/>}></Route>
           </Routes>
           <Footer/>
           </div>
