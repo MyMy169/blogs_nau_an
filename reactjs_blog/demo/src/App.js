@@ -16,6 +16,8 @@ import ListRepcipes from './component/repcipes/list';
 import Blog from './component/repcipes/blog';
 import Login from './component/login/login';
 import Admin from './component/admin/admin';
+import CreatBlog from './component/admin/createblog';
+import EditBlog from './component/admin/editblog';
 
 class App extends Component{
   render() {
@@ -36,6 +38,8 @@ class App extends Component{
           </Routes>
           <Footer/>
           <Admin/>
+          <CreatBlog></CreatBlog>
+          <EditBlog></EditBlog>
           </div>
        </Router>
    );

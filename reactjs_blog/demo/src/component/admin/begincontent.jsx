@@ -17,18 +17,18 @@ function BeginContent() {
                             <thead>
                                 <tr>
                                     <th>Mã bài viết</th>
+                                    <th>Tên món ăn</th>                                    
                                     <th>Hình ảnh</th>
                                     <th>Mô tả</th>
-                                    <th>Age</th>
                                     <th>Trạng thái</th>
                                 </tr>
                             </thead>
                             <tfoot>
                                 <tr>
                                     <th>Mã bài viết</th>
+                                    <th>Tên món ăn</th>                                   
                                     <th>Hình ảnh</th>
                                     <th>Mô tả</th>
-                                    <th>Age</th>
                                     <th>Trạng thái</th>
                                 </tr>
                             </tfoot>
