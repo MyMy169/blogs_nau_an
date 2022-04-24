@@ -15,6 +15,7 @@ import Header from './component/header';
 import ListRepcipes from './component/repcipes/list';
 import Blog from './component/repcipes/blog';
 import Login from './component/login/login';
+import Admin from './component/admin/admin';
 
 class App extends Component{
   render() {
@@ -34,6 +35,7 @@ class App extends Component{
                  <Route exact path='/login' element={<Login/>}></Route>
           </Routes>
           <Footer/>
+          <Admin/>
           </div>
        </Router>
    );
