@@ -25,9 +25,9 @@ function About () {
                     <div class="col-lg-4">
                         <div class="about-right">
                             <div class="sidebar">
-                                <div class="sidebar-item">
-                                    { <img src="img/aboutus/my.jpg" alt=""/> }
-                                    <h6>Đặng Thị Tiểu My</h6>
+                            <div class="sidebar-item">
+                                    { <img src="img/aboutus/hong.jpg" alt=""/> }
+                                    <h6>Võ Thị Tuyết Hồng</h6>
                                 </div>
                                 <div class="sidebar-item">
                                     { <img src="img/aboutus/huong.jpg" alt=""/> }
@@ -36,14 +36,14 @@ function About () {
                                 <div class="sidebar-item">
                                     { <img src="img/aboutus/chuyen.jpg" alt=""/> }
                                     <h6>Bùi Thị Cẩm Huyền</h6>
-                                </div>
-                                <div class="sidebar-item">
-                                    { <img src="img/aboutus/hong.jpg" alt=""/> }
-                                    <h6>Võ Thị Tuyết Hồng</h6>
-                                </div>
+                                </div>                               
                                 <div class="sidebar-item">
                                     { <img src="img/aboutus/nhuyen.jpg" alt=""/> }
                                     <h6>Trần Lê Ngọc Huyền</h6>
+                                </div>
+                                <div class="sidebar-item">
+                                    { <img src="img/aboutus/my.jpg" alt=""/> }
+                                    <h6>Đặng Thị Tiểu My</h6>
                                 </div>
                             </div>
                         </div>

@@ -2,10 +2,10 @@ import React from 'react';
  
 function Contact (){
  return <address>
-            You can find us here:<br />
-            Group 7<br />
-            SaiGon University<br />
-            273 An Duong Vuong, District 5
+            Bạn có thể tìm chúng tôi ở đây :<br />
+            Nhóm 7<br />
+            Đại học Sài Gòn<br />
+            273 An Dương Vương, Quận 5
         </address>
 }
  
