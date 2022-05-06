@@ -1,9 +1,4 @@
-import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
-    Link
-  } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 export default function FeaturedRepcipes() {
     return (
         <section class="feature-recipe">

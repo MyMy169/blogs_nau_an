@@ -1,13 +1,8 @@
-import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
-    Link
-  } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 export default function Header(){
     return(
-        <header class="header-section">
+        <header className="header-section">
             <div className="container">
                 <div className="logo">
                     <img src="img/logo.png" alt="Banner"/>

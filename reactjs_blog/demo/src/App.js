@@ -7,8 +7,7 @@ import React, { Component } from 'react'
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from 'react-router-dom';
 import Footer from './component/footer/Footer';
 import Header from './component/header';

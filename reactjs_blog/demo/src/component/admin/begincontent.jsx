@@ -1,5 +1,4 @@
 import React from 'react';
-import SideBar from './sidebar';
 
 function BeginContent() {
     return (
