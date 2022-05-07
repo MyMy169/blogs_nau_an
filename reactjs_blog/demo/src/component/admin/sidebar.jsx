@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 function SideBar() {
     return (
@@ -14,16 +15,14 @@ function SideBar() {
       <hr className="sidebar-divider my-0" />
       {/* Nav Item - Tables */}
       <li className="nav-item active">
-        <a className="nav-link" href="tables.html">
-          <i className="fas fa-fw fa-table" />
-          <span>Tables</span></a>
+        <Link to="/ql-bai-viet" className="nav-link">
+        <i className="fas fa-fw fa-table" />
+          <span>Quản lý bài viết</span>
+        </Link>
+
       </li>
       {/* Divider */}
       <hr className="sidebar-divider d-none d-md-block" />
-      {/* Sidebar Toggler (Sidebar) */}
-      <div className="text-center d-none d-md-inline">
-        <button className="rounded-circle border-0" id="sidebarToggle" />
-      </div>
     </ul>
     );
 }

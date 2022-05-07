@@ -17,7 +17,7 @@ export default function Header(){
                             <li><Link to="/nuoc">Nước</Link></li>
                             <li><Link to="/about">Giới thiệu</Link></li>
                             <li><Link to="/contact">Liên hệ</Link></li>
-                            <li><Link to="/login">Login</Link></li>
+                            {/* <li><Link to="/login">Login</Link></li> */}
                         </ul>
                     </nav>
                 </div>
