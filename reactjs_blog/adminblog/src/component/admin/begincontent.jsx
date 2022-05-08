@@ -1,5 +1,6 @@
 import React , {Component} from 'react';
 import InfoModal from './buttonAdd';
+import InfoDelete from './buttonDelete';
 import InfoModalEdit from './buttonEdit';
 
 class BeginContent extends Component {
@@ -31,7 +32,7 @@ class BeginContent extends Component {
                                         <td>66</td>
                                         <td><form action="#">
                                             <InfoModalEdit/>
-                                            <button type="submit" style={{ fontSize: '7px' }} onclick="return confirm('Bạn có chắc chắn muốn xóa?')" className="btn btn-danger" title="Xóa bài viết"><i className="fa fa-trash" /></button>
+                                            <InfoDelete/>
                                         </form></td>
                                     </tr>
                                 </tbody>
