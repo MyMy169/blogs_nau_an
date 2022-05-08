@@ -14,11 +14,6 @@ import Footer from './component/footer/Footer';
 import Header from './component/header';
 import ListRepcipes from './component/repcipes/list';
 import Blog from './component/repcipes/blog';
-import Login from './component/login/login';
-import Admin from './component/admin/admin';
-import CreatBlog from './component/admin/createblog';
-import EditBlog from './component/admin/editblog';
-import TextBlog from './component/admin/textBlog';
 
 
 class App extends Component {
@@ -35,13 +30,8 @@ class App extends Component {
             <Route exact path='/about' element={<About />}></Route>
             <Route exact path='/contact' element={<Contact />}></Route>
             <Route exact path='/cach_nau/blogs' element={<Blog />}></Route>
-            <Route exact path='/login' element={<Login />}></Route>
           </Routes>
           <Footer />  
-          <Admin/>
-          <CreatBlog></CreatBlog>
-          <EditBlog></EditBlog>
-          <TextBlog/>
         </BrowserRouter>
     );
   }

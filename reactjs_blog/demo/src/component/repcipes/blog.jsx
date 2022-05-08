@@ -19,7 +19,7 @@ export default function Blog() {
                     <div className="col-lg-5">
                         <div className="ingredients-item">
                             <div className="intro-item">
-                                <img src="../img/bunbohue.jpg" alt="" />
+                                <img src="../img/bunbohue.jpg" alt=""  />
                                 <h2>Bún Bò Huế</h2>
                                 <div className="recipe-time">
                                     <ul>
