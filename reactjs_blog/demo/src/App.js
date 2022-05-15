@@ -14,6 +14,7 @@ import Footer from './component/footer/Footer';
 import Header from './component/header';
 import ListRepcipes from './component/repcipes/list';
 import Blog from './component/repcipes/blog';
+import DetailCategory from './component/repcipes/detailCategory';
 
 
 class App extends Component {
@@ -23,10 +24,11 @@ class App extends Component {
           <Header />
           <Routes>
             <Route exact path='/' element={<Home />}></Route>
-            <Route exact path='/trang_mieng' element={<ListRepcipes />}></Route>
+            {/* <Route exact path='/trang_mieng' element={<ListRepcipes />}></Route>
             <Route exact path='/mon_viet' element={<ListRepcipes />}></Route>
             <Route exact path='/mon_ngot' element={<ListRepcipes />}></Route>
-            <Route exact path='/nuoc' element={<ListRepcipes />}></Route>
+            <Route exact path='/nuoc' element={<ListRepcipes />}></Route> */}
+            <Route exact path='/category/:id' element={<DetailCategory/>}></Route>
             <Route exact path='/about' element={<About />}></Route>
             <Route exact path='/contact' element={<Contact />}></Route>
             <Route exact path='/cach_nau/blogs' element={<Blog />}></Route>
